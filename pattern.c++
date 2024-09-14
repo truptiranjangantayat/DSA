@@ -120,8 +120,38 @@ int main(){
     //     cout<<endl;
     // }
 
+    
+    // 1111
+    //  222
+    //   33
+    //    4
+    // for(int i = 1; i <= n; i++){
+    //     for(int j = 1; j <= i; j++){
+    //         cout<<" ";
+    //     }
+    //     for(int k = n; k >= i; k--){
+    //         cout<<i;
+    //     }
+    //     cout<<endl;
+    // }
 
 
+
+    // AAAA
+    //  BBB
+    //   CC
+    //    D
+    char ch = 'A';
+    for(int i = 1; i <= n; i++){
+        for(int j = 1; j <= i; j++){
+            cout<<" ";
+        }
+        for(int k = n; k >= i; k--){
+            cout<<ch;
+        }
+        cout<<endl;
+        ch = char( ch +1);
+    }
 
         
 
